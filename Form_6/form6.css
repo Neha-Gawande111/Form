@@ -1,0 +1,67 @@
+body{
+    background-color: rgb(240, 229, 229);
+}
+#MainDiv{
+               display: flex;
+               align-items: center;
+               align-content: center;
+               text-align: center;
+               justify-content: center; 
+              flex-direction: column;
+              border-radius: 10px 10px 10px 10px;           
+}
+#Form{    
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+    flex-direction: column;
+    background-color: white;
+    margin: 3%;
+    border-radius: 10px;
+    width: 40%; 
+     }
+#Fields{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    
+   }
+#Form input{
+    height: 5vh;
+    background-color:rgb(240, 229, 229); ;
+    margin: 2% 2% 2% 2%;
+    border: none;
+    width: 50%;
+}
+.User,
+.password{
+                height: 5vh;    
+                width: 600px;
+                border-radius: 10px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin: 2%;
+                padding: 10px;
+                border: none;
+}
+button{
+    height: 30px;
+    width: 350px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 3%;
+    margin-top: 10%;
+    background-color:  rgb(49, 49, 197);
+    color: whitesmoke;
+}
+h1{
+    margin-top: 10%;
+}
+#img11{
+    margin-left: 36%;
+    margin-top: -50px;
+}

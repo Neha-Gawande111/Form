@@ -1,0 +1,43 @@
+body{
+    background-color: skyblue;
+}
+#main{
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 70% 30%;
+    }
+.FreshDesign{
+    background-color: white;
+    padding: 5%;
+
+}
+.FreshDesign button{
+    width: 500px;
+    padding: 10px 10px;
+    border: none;
+    font-size: large;
+    background-color: blue;
+    color: white;
+    }
+.input input{
+    border:none;
+    outline: none;
+    
+}
+.checkbox{
+    display: flex;
+    align-items: start;
+    justify-content: start;
+ }
+ .checkbox p,input{
+        color: black;
+        margin: 10px 10px;
+ }
+
+h1,p{
+    color: blue;
+    font-weight: bolder;
+}
+.color{
+    background-color: blue;
+}

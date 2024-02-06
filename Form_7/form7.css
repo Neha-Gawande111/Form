@@ -1,0 +1,68 @@
+body{
+    background-image: radial-gradient(closest-side, rgb(68, 226, 200),rgb(88, 88, 204));
+}
+#main{
+
+    display: flex;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    flex-direction: column;
+    
+}
+#form{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    width: 60%;
+    padding: 5px;
+    margin: 10px;
+}
+.name,
+.email,
+.country,
+.number,
+.password
+ {   
+     height: 30px;
+    display: flex;
+    width: 600px;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 5px;
+}
+#form input{
+    height: 3vh;
+    width: 90%;
+    margin: 2% 2% 2% 2%;
+    border: none;
+}
+h1{
+    color: rgb(17, 97, 97);
+    margin-top: 5%;
+    
+}
+.checkbox{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding: 20px;
+    }
+.checkbox input{
+    border-radius: 50%;
+    }    
+button{
+    height: 30px;
+    width: 200px;
+    border: none;
+    margin-bottom: 3%;
+    margin-top: 3%;
+    background-image: linear-gradient(to right, rgb(67, 121, 201),rgb(22, 175, 142));
+    color: whitesmoke;
+}
+hr{
+    width: 600px;
+}

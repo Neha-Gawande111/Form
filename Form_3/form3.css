@@ -1,0 +1,52 @@
+body{
+    background-color: gray;
+
+}
+h1{
+    background-color: rgb(63, 63, 136);
+    color: bisque;
+    margin-top: 0%;
+    border-radius: 10px 10px 0px 0px;
+}
+#FormMain{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+    flex-direction: column;
+    background-color: rgb(47, 47, 128);
+    margin: 5%;
+    border-radius: 10px;
+}
+.Fields{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    }
+.Fields input{
+                height: 5vh;
+                width: 90%;
+                margin: 2% 2% 2% 2%;
+                border-radius: 10px;
+}
+.checkbox{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+button{
+        height: 30px;
+        width: 100px;
+        border-radius: 10px;
+        border: none;
+        margin-bottom: 3%;
+        margin-top: 3%;
+        background-color:  rgb(196, 196, 245);
+        color: whitesmoke;
+}
+a{
+    color: rgb(93, 53, 236);
+}

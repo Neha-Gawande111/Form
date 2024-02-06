@@ -1,0 +1,113 @@
+body{
+    background-color: rgb(136, 169, 240);
+}
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    /* border-radius: 10px; */
+}
+.img {
+    background-color: rgb(26, 66, 188);
+    width: 40%;
+    height: 90vh;
+    position: relative;
+    /* for testing */
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.img img {
+    height: 50%;
+    width: 50%;
+    position: absolute;
+    bottom: 20%;
+    right: 40%;
+
+}
+.form {
+    text-align: center;
+    width: 40%;
+    height: 90vh;
+    background-color: white;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    }
+h1{
+    margin: 10%;
+}
+p {
+    margin-bottom: 5%;
+    font-size: 10px;
+}
+.details {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+#name,
+#email,
+#phone,
+#password,
+#signup {
+    height: 20px;
+    display: flex;
+    border: 1px solid black;
+    width: 200px;
+    margin: 2%;
+    padding: 2px;
+    border-radius: 5px;
+}
+
+input {
+    border: none;
+}
+
+#signup {
+    font-size: 15px;
+    text-align: center;
+    background-color: blue;
+    height: 30px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+
+}
+
+#googlelogin,
+#facebooklogin {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    border: 1px solid blanchedalmond;
+    height: 5%;
+    width: 100px;
+    font-size: larger;
+}
+
+img {
+    height: 20px;
+    width: 20px;
+
+}
+
+button {
+    height: 30px;
+    border: none;
+    background: none;
+}
